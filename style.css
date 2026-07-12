@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.container{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.movie-card{
+    display:inline-block;
+    width:250px;
+    margin:20px;
+    padding:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    background:#fafafa;
+}
+
+.movie-card:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+input,
+select{
+    width:80%;
+    padding:10px;
+    margin:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button,
+input[type=submit]{
+    background:#007BFF;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover,
+input[type=submit]:hover{
+    background:#0056b3;
+}
+
+footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
