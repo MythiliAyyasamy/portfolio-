@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎟 Movie Ticket Booking</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="booking.html">Book Ticket</a>
+        <a href="confirmation.html">Confirmation</a>
+    </nav>
+</header>
+
+<div class="container">
+
+<h2>Book Your Ticket</h2>
+
+<form action="confirmation.html">
+
+<label>Customer Name</label><br>
+<input type="text" placeholder="Enter your name" required><br><br>
+
+<label>Email</label><br>
+<input type="email" placeholder="Enter your email" required><br><br>
+
+<label>Mobile Number</label><br>
+<input type="tel" placeholder="Enter mobile number" required><br><br>
+
+<label>Select Movie</label><br>
+<select required>
+    <option>Leo</option>
+    <option>Jailer</option>
+    <option>GOAT</option>
+</select><br><br>
+
+<label>Select Date</label><br>
+<input type="date" required><br><br>
+
+<label>Select Time</label><br>
+<select required>
+    <option>10:00 AM</option>
+    <option>2:00 PM</option>
+    <option>6:00 PM</option>
+    <option>9:00 PM</option>
+</select><br><br>
+
+<label>Number of Tickets</label><br>
+<input type="number" min="1" max="10" required><br><br>
+
+<label>Select Seat</label><br>
+<input type="text" placeholder="Example: A5" required><br><br>
+
+<input type="submit" value="Confirm Booking">
+
+</form>
+
+</div>
+
+<footer>
+<p>© 2026 Movie Ticket Booking System</p>
+</footer>
+
+</body>
+</html>
